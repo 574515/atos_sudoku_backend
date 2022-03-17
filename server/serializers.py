@@ -5,7 +5,7 @@ from server.models import Game, Move
 class MoveSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Move
-		fields = ["move_number", "affected_filed"]
+		fields = ["move_number", "affected_field"]
 
 
 class GameSerializer(serializers.ModelSerializer):
